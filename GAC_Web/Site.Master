@@ -20,9 +20,12 @@
             <div class="loginDisplay">
                 <asp:ImageButton ID="ImageButton1" runat="server" Height="50px" 
                     ImageUrl="~/switch5050---1psd.png" onclick="ImageButton1_Click" Width="50px" />
-&nbsp;<asp:ImageButton ID="ImageButton2" runat="server" Height="50px" 
-                    ImageUrl="~/media5050---1psd.png" onclick="ImageButton2_Click" Width="50px" />
-            </div>
+                <asp:ImageButton ID="imgBtnMedia" runat="server" Height="50px" 
+                    ImageUrl="~/media5050---1psd.png" onclick="imgBtnMedia_Click" 
+                    Width="50px" />
+                <asp:ImageButton ID="imgBtnUpload" runat="server" 
+                    ImageUrl="~/Upload-icon1-50x50.png" onclick="imgBtnUpload_Click" />
+&nbsp;</div>
             <div class="clear hideSkiplink">
             </div>
         </div>

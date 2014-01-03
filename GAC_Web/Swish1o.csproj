@@ -65,6 +65,7 @@
     <Content Include="Scripts\jquery-1.4.1.min.js" />
     <Content Include="sunny.png" />
     <Content Include="switch5050---1psd.png" />
+    <Content Include="Upload-icon1-50x50.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -73,6 +74,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="GAC_media.aspx" />
+    <Content Include="GAC_upload.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.cs">
@@ -137,9 +139,17 @@
       <DependentUpon>GAC_media.aspx</DependentUpon>
     </Compile>
     <Compile Include="VolumeController.cs" />
+    <Compile Include="GAC_upload.aspx.cs">
+      <DependentUpon>GAC_upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GAC_upload.aspx.designer.cs">
+      <DependentUpon>GAC_upload.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="UploadedFiles\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />

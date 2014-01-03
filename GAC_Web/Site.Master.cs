@@ -20,9 +20,14 @@ namespace Swish1o
         }
 
 
-        protected void ImageButton2_Click(object sender, ImageClickEventArgs e) // media button
+        protected void imgBtnMedia_Click(object sender, ImageClickEventArgs e) // media button
         {
             Response.Redirect("GAC_media.aspx");
+        }
+
+        protected void imgBtnUpload_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("GAC_upload.aspx");
         }
     }
 }
