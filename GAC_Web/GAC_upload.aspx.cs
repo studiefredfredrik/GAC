@@ -22,9 +22,15 @@ namespace Swish1o
         }
         protected void btnUpload_Click(object sender, EventArgs e)
         {
-            if (InputFile1.HasFile)
+            try
             {
-                InputFile1.MoveTo("C:/LANRW/" + InputFile1.FileName, MoveToOptions.Overwrite);
+                if (InputFile1.HasFile)
+                {
+                    InputFile1.MoveTo("C:/LANRW/" + InputFile1.FileName, MoveToOptions.Overwrite);
+                }
+            }
+            catch (Exception)
+            {
             }
 
         }
