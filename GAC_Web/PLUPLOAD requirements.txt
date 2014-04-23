@@ -1,0 +1,15 @@
+PLUPLOAD requires PHP installed in the webserver
+
+PLUPLOAD site:
+http://www.plupload.com
+
+Aprelium Abyss webserver PHP install guide:
+http://www.aprelium.com/abyssws/php.html
+
+Download PHP binaries for windows:
+http://windows.php.net/download/
+(no install/compile required for PHP >= 5.4, just extract the zip
+and link the files in Abyss like the guide says)
+
+The js folder and the jquery folder, as well as the upload.php
+and dump.php are also part of plupload.
