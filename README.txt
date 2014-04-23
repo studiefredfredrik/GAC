@@ -15,10 +15,11 @@ lights in the living room on/off.
 Mediacenter capabilities was done with simple keystroke emulation in C# wich
 controls a VLC mediaplayer session. 
 
-Media files were transferred via SMB to a shared folder on the server. Media
-files get litsted on the web interface and pressing play on the web interface
-makes the movie play on the TV with VLC.
+Media files are transferred via the upload page to a folder on the server. 
+Media files get listed on the web interface and pressing play on the web 
+interface makes the movie play on the TV with VLC.
 
 I can recomend Aprelium - Abyss Web Server (Ver. X1 is free)
 The project also requires VLC mediaplayer to be installed.
+As of version 1.5 PHP is also required for the upload functionality.
 
