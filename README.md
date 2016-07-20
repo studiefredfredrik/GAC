@@ -24,9 +24,9 @@ The project also requires VLC mediaplayer to be installed.
 As of version 1.5 PHP is also required for the upload functionality.
 
 ## Light switch
-![Light switch](https://github.com/studiefredfredrik/GAC/blob/master/Artwork/images%20for%20the%20wiki/lights%20default.PNG?raw=true)
-
 The Lightswitch is the default page and lets the user turn the lights on or off. The C# code sends commands thru the COM port to the Arduino that controls the relays
+
+![Light switch](https://github.com/studiefredfredrik/GAC/blob/master/Artwork/images%20for%20the%20wiki/lights%20default.PNG?raw=true)
 
 ## Media control
 The media control page lets the user start playback of media files on the server (the server should be connected to a TV). 
