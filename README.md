@@ -25,14 +25,17 @@ As of version 1.5 PHP is also required for the upload functionality.
 
 ## Light switch
 ![Light switch](https://github.com/studiefredfredrik/GAC/blob/master/Artwork/images%20for%20the%20wiki/lights%20default.PNG?raw=true)
+
 The Lightswitch is the default page and lets the user turn the lights on or off. The C# code sends commands thru the COM port to the Arduino that controls the relays
 
 ## Media control
 The media control page lets the user start playback of media files on the server (the server should be connected to a TV). 
 It uses C# code to open VLC mediaplayer on the server and emulates keyboard events to control the playback.
 The page by default scans the folder `C:\LANRW` for files and displays them in a listbox. The user would use the upload page to upload media files to the server.
+
 ![Media control](https://github.com/studiefredfredrik/GAC/blob/master/Artwork/images%20for%20the%20wiki/media.PNG?raw=true)
 
 ## Upload files
-GAC also lets the user upload files to the server. It's the latest addition to the project and currently only supports files up to `2GB`. But it's still a WIP
+GAC also lets the user upload files to the server. It's the latest addition to the project and currently only supports files up to `2GB`. But it's still a WIP.
+
 ![Upload files](https://github.com/studiefredfredrik/GAC/blob/master/Artwork/images%20for%20the%20wiki/upload.PNG?raw=true)
