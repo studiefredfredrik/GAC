@@ -1,5 +1,4 @@
 # About
-
 GAC - Gulset Action Center
 
 Gulset Action Center gives mediacenter and lighting control on a web interface. 
